@@ -73,7 +73,7 @@
     
     
     
-    self.cityTableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 64, ScreenWidth, ScreenHeight)];
+    self.cityTableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 64, ScreenWidth, ScreenHeight-64)];
     self.cityTableView.delegate=self;
     self.cityTableView.dataSource=self;
     self.cityTableView.backgroundColor=[UIColor clearColor];

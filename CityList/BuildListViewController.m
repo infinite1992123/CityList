@@ -19,7 +19,6 @@
 
 @property (nonatomic, strong) UITableView *buildTableView;
 
-
 @property (nonatomic, strong)UIButton *centerButton;
 @property (nonatomic, strong)UIButton *cancelButton;
 @property (nonatomic,copy) NSString *cityName;
